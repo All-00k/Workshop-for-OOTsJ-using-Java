@@ -30,7 +30,7 @@ class Circle{
 
     }
     public double Perimeter(int r){
-        return 2 * 3.14 *r ;
+        return 2 * Math.PI *r ;
     }
 }
   
