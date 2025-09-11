@@ -1,8 +1,6 @@
-class New() {
-    void m() {
-        new Runnable() {
-            public void run() {
-            }
-        };
+class New {
+    public static void main(String[] args) {
+        System.out.println("NEW NEW HAI JI");
+        
     }
-}
+    }
