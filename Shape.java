@@ -8,12 +8,10 @@ public class Shape {
 
         Circle obj2 = new Circle();
         System.out.println("Area of Circle " + obj2.Area(4));
-        System.out.println("Perimeter of Circle : " + obj2.Perimeter(4));
-
-        
-    }
-    
+        System.out.println("Perimeter of Circle : " + obj2.Perimeter(4));    
+    }    
 }
+
 class Rectangle{
     public int Area(int l,int b){
         return l * b;
