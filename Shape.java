@@ -11,7 +11,6 @@ public class Shape {
         System.out.println("Perimeter of Circle : " + obj2.Perimeter(4));    
     }    
 }
-
 class Rectangle{
     public int Area(int l,int b){
         return l * b;
