@@ -1,3 +1,4 @@
+
 public class Shape {
     public static void main(String[] args) {
         Rectangle obj1 = new Rectangle();
