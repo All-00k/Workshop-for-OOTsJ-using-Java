@@ -24,7 +24,7 @@ public class Constructors {
         Constructors obj1 = new Constructors();
         Constructors s1 = new Constructors(111, "Alok");
         Constructors s2 = new Constructors(2,"Ashutosh",18);
-        obj1.display();
+        obj1.display();// to access default constructors
         s1.display();
         s2.display();
     }
