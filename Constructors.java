@@ -2,6 +2,10 @@ public class Constructors {
     int id  ;
     String name;
     int age;
+    public Constructors(){
+        id = 100;
+        name = "aloooookkkk";
+    }
     public Constructors(int i,String n){   //first contructor
         id = i;
         name =n;
@@ -17,9 +21,10 @@ public class Constructors {
     }
     
     public static void main(String[] args) {
-        
+        Constructors obj1 = new Constructors();
         Constructors s1 = new Constructors(111, "Alok");
         Constructors s2 = new Constructors(2,"Ashutosh",18);
+        obj1.display();
         s1.display();
         s2.display();
     }
