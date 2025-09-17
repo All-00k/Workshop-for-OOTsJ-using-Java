@@ -5,6 +5,7 @@ public class Constructors {
     public Constructors(){
         id = 100;
         name = "aloooookkkk";
+        age = 28;
     }
     public Constructors(int i,String n){   //first contructor
         id = i;
