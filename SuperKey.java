@@ -2,11 +2,9 @@ public class SuperKey {
     public static void main(String[] args) {
         Employee obj = new Employee(1, "alok", "28-sept");
         obj.display();
-    }
-    
-
-    
+    }    
 }
+
 class Student{
     
     String name,dob;
@@ -14,8 +12,8 @@ class Student{
         this.name = name;
         this.dob= dob;
     }
-
 }
+
 class Employee extends Student{
     int id;
     public Employee(int id, String name, String dob){

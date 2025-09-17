@@ -14,7 +14,8 @@ class B extends A{
    
     String city = "Greater Noida";
     public void show(){
-        System.out.println("city: " +super.city);
+        System.out.println("city: " +super.city); //will print Kanpur
+        System.out.println("City: "+city); //will print Greater Noida
     }
 
 }
