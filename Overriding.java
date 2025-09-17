@@ -2,14 +2,17 @@
     public static void main(String[] args) {
         Parentt object = new Parentt();
         object.display(5,6);
+        object.show();
         Parentt object1 = new Childd();
         object1.display(5,6);
+        object1.show();
         
     }
     
 }
 class Parentt{
     public  void display(int a, int b){
+        
         int c =a+b;
         System.out.println("c: " +c);
     }
@@ -21,11 +24,13 @@ class Parentt{
 class Childd extends Parentt{
     @Override
     public  void display(int a, int b){
+        super.display(a, b);
         int c = a*b;
         
         System.out.println("c: "+c);
     }
     public void show(){
+        super.show();
         System.out.println("In Child Class");
     }
 }
