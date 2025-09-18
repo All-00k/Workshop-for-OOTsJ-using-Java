@@ -10,7 +10,7 @@ public class Car {
     }
 
     public static void main(String[] args){
-        CAR obj = new CAR();
+        Car obj = new Car();
         obj.model = "MAAARUTIIII ALTO";
         obj.speed = 100;
         obj.display();
