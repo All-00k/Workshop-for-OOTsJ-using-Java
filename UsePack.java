@@ -13,7 +13,7 @@ public class UsePack {
         obj.show();
         obj.showMessage();
         NewClass2.Show(); //we have not created any object of NewClass cause the method is static
-        Packing obj1 = new Packing(); //accessing method of files exists in "OtherInOther"
+        Packing obj1 = new Packing(); //accessing method of file(Packing) exists in "OtherInOther"
         obj1.greeting();
 
         Date date = new Date();
