@@ -13,6 +13,7 @@ class Hi implements hello{
 
 //interface can have only abstract methods. Since Java 8, it can have default and static methods
 //interafce is a type of abstract class which can implements multiple sub classes ("multiple inheritance")
+  
 
 
 
