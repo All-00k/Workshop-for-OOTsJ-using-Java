@@ -36,12 +36,12 @@ public class ArrayDemo2 {
          break;
         case 6:
         System.out.println("Friday");
-         break;
+        break;
         case 7:
         System.out.println("Saturday");
-         break;
+        break;
         default:
-         System.out.println("There no");
+         System.out.println("There is no "+ arr[p]+ "th day in a week");
 
 
     }
