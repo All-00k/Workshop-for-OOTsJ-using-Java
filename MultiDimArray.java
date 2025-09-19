@@ -19,8 +19,9 @@ public class MultiDimArray {
                     System.out.print(arr[i][j][k]+" ");
                 }
                 
-                System.out.println("");
+                System.out.println(" ");
             }
+            System.out.println(" ");
             
            
         }
