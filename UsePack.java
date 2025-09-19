@@ -1,7 +1,7 @@
 import Others.*;
 import Others.OtherInOther.*;
 import java.util.*;
-import java.util.Arrays;
+
 public class UsePack {
     public void mesasge(){
         System.out.println("Message ");
