@@ -52,4 +52,5 @@ class Calculator {
 
 // try{
 //     }
-//except(Exception class obj name)
+//catch(Exception class_obj_name){
+//     }
