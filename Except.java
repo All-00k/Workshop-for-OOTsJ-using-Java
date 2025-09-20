@@ -20,7 +20,7 @@ class Calculator {
         }
         catch(ArithmeticException ar){
             System.out.println(ar.toString());
-        }  // if we this whole catch block below of catch block of Exception then it will show error that
+        }  // if we keep this whole catch block below of catch block of Exception then it will show error that
             //exception is already handled....
         
         catch(Exception e){
