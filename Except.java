@@ -28,6 +28,9 @@ class Calculator {
             System.out.println(e.toString());
             e.printStackTrace(); //to track the error
         }
+        finally{
+            System.out.println("Finally Block");
+        }
         
     
 }
@@ -43,6 +46,7 @@ class Calculator {
         
     }
 }
+
 
 
 

@@ -2,7 +2,8 @@ import java.io.*;
 public class UserDemo2 {
     
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args)  throws IOException, Exception //or simpily 'throws Exception'
+    {
         int num1, num2, result;
         
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
