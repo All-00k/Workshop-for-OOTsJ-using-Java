@@ -27,10 +27,7 @@ public class LargestEle {
         System.out.println("Sorted: "+Arrays.toString(soortt));
 
 
-
-
-    
-   
+  
 }  
 
 public static int  largest(int[] arr){
